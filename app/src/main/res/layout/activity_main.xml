@@ -12,9 +12,10 @@
         android:orientation="vertical"
         tools:context=".MainActivity">
 
-        <EditText
-            android:id="@+id/text_edit"
+        <TextView
+            android:id="@+id/show_prev"
             android:hint="0"
+            android:textSize="40dp"
             android:gravity="right|center"
             android:layout_width="match_parent"
             android:layout_height="0dp"
@@ -36,8 +37,8 @@
             android:layout_height="match_parent"
             android:layout_weight="1"/>
 
-            <TextView
-                android:id="@+id/show_prev"
+            <EditText
+                android:id="@+id/text_edit"
                 android:text="Hello"
                 android:gravity="right|center"
                 android:layout_width="0dp"
