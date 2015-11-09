@@ -38,7 +38,7 @@
                 android:layout_height="match_parent"/>
 
             <TextView
-                android:text="<--"
+                android:text="B"
                 android:textSize="50sp"
                 android:gravity="center"
                 android:layout_width="0dp"
