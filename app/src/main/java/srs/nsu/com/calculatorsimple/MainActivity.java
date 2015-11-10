@@ -174,15 +174,15 @@ public class MainActivity extends AppCompatActivity {
         e.setText("");
     }
 
-    public void onClickBackspace(View view){
+     public void onClickBackspace(View view){
         TextView e = (TextView) findViewById(R.id.text_edit);
         String s = "";
         String t = (String) e.getText();
-
-        for(int i =0;i<t.length()-1;i++){
-            s = s+t.charAt(i);
-            e.setText(s);
+        for(int i=0;i<t.length()-1;i++){
+            s = s + t.charAt(i);
         }
+        e.setText(s);
+    }
 
 
     }
